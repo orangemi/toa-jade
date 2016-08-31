@@ -1,15 +1,15 @@
 'use strict'
 /* global describe, it */
 
-const assert = require('assert')
-const path = require('path')
-const render = require('../lib/index')
-const request = require('supertest')
-const toa = require('toa')
+var assert = require('assert')
+var path = require('path')
+var render = require('../lib/index')
+var request = require('supertest')
+var toa = require('toa')
 
 describe('test/test.js', function () {
   describe('init()', function () {
-    let app = toa()
+    var app = toa()
 
     it('should init ok', function () {
       render(app)
@@ -25,8 +25,8 @@ describe('test/test.js', function () {
 
   describe('server', function () {
     it('should render page ok', function (done) {
-      let app = toa(function () {
-        let user = {
+      var app = toa(function () {
+        var user = {
           name: 'toa'
         }
         return this.render('user', {user: user})

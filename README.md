@@ -3,6 +3,8 @@ toa-jade
 
 Jade render module for toa.
 
+[![Build Status](https://travis-ci.org/orangemi/toa-jade.svg?branch=master)](https://travis-ci.org/orangemi/toa-jade)
+
 ## Usage:
 ```
 var toa = require('toa')
