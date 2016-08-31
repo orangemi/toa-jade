@@ -1,0 +1,20 @@
+{
+  "name": "toa-jade",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tman test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.0.0",
+    "supertest": "^2.0.0",
+    "tman": "^1.2.2",
+    "toa": "^1.8.8"
+  },
+  "dependencies": {
+    "jade": "^1.11.0"
+  }
+}
